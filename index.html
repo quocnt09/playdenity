@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity Web Player | TestWebGL</title>
+    <title>Unity Web Player | Playdentity</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-logo-title-footer"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">TestWebGL</div>
+        <div id="unity-build-title">Playdentity</div>
       </div>
     </div>
     <script>
@@ -52,16 +52,16 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/playdentity-web.loader.js";
+      var loaderUrl = buildUrl + "/playdentity-deploy.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/playdentity-web.data.unityweb",
-        frameworkUrl: buildUrl + "/playdentity-web.framework.js.unityweb",
-        codeUrl: buildUrl + "/playdentity-web.wasm.unityweb",
+        dataUrl: buildUrl + "/playdentity-deploy.data.unityweb",
+        frameworkUrl: buildUrl + "/playdentity-deploy.framework.js.unityweb",
+        codeUrl: buildUrl + "/playdentity-deploy.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "TestWebGL",
-        productVersion: "1.0",
+        companyName: "Topebox",
+        productName: "Playdentity",
+        productVersion: "0.0.1",
         showBanner: unityShowBanner,
       };
 
